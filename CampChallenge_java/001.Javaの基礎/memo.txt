@@ -2,7 +2,7 @@
 
 型式：		T101HA
 デバイス名：	DESKTOP-RFAQ6GA
-プロセッサ：	Intel(R) Atom(TM) x5-Z8350 CPU @ 1.44GHz 1.44GHz　※デュアルコア
+プロセッサ：	Intel(R) Atom(TM) x5-Z8350 CPU @ 1.44GHz 1.44GHz　※クアッドコアらしい
 実装RAM：	2.00GB(1.83GB usable)　※実際使えるのは1.83GB
 システムの種類：64-bit OS、x64-based processor　※64ビットOSでそれ用のプロセッサー
 
