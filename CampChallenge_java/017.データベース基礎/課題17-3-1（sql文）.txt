@@ -1,0 +1,7 @@
+create table profiles (profilesID int,name varchar(255),tel varchar(255),age int,birthday date);
+
+insert into profiles (profilesID,name,tel,age,birthday) values (1,'ìcíÜ é¿','012-345-6789',30,'1994-02-01');
+insert into profiles (profilesID,name,tel,age,birthday) values (2,'óÈñÿ ñŒ','090-1122-3344',37,'1987-08-12');
+insert into profiles (profilesID,name,tel,age,birthday) values (3,'óÈñÿ é¿','080-5566-7788',24,'2000-12-24');
+insert into profiles (profilesID,name,tel,age,birthday) values (4,'ç≤ì° ê¥','012-0987-6543',19,'2005-08-01');
+insert into profiles (profilesID,name,tel,age,birthday) values (5,'çÇã¥ ê¥','090-9900-1234',24,'2000-12-24');
