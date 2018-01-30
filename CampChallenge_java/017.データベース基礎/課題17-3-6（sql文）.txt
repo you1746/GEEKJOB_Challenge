@@ -1,0 +1,2 @@
+
+select * from profiles where name LIKE '%ŽÀ%';
