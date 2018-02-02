@@ -1,0 +1,2 @@
+
+update profiles set name='‹g“c –Î' where profilesID=2;
