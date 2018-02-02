@@ -1,0 +1,4 @@
+
+update profiles set name='‹g“c –Î' where profilesID=2;
+
+delete from profiles where birthday = '2000-12-24';
