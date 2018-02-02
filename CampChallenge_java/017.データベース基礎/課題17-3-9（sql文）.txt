@@ -1,0 +1,23 @@
+
+create table department (departmentID int primary key, departmentName varchar(255));
+
+insert into department (departmentID,departmentName) values (1,'ŠJ”­•”');
+insert into department (departmentID,departmentName) values (2,'‰c‹Æ•”');
+insert into department (departmentID,departmentName) values (3,'‘–±•”');
+
+create table station (stationID int primary key, stationName varchar(255));
+
+insert into station (stationID,stationName) values (1,'‹ã’i‰º');
+insert into station (stationID,stationName) values (2,'‰i“c’¬');
+insert into station (stationID,stationName) values (3,'a’J');
+insert into station (stationID,stationName) values (4,'_•Û’¬');
+insert into station (stationID,stationName) values (5,'ãˆä‘');
+
+create table user (userID int primary key,name varchar(255),tell varchar(255),age int,birthday date,departmentID int,stationID int, foreign key(departmentID) references department(departmentID), foreign key(stationID) references station(stationID));
+
+insert into user (userID,name,tell,age,birthday,departmentID,stationID) values (1,'“c’† À','012-345-6789',30,'1994-02-01',3,1);
+insert into user (userID,name,tell,age,birthday,departmentID,stationID) values (2,'—é–Ø –Î','090-1122-3344',37,'1987-08-12',3,4);
+insert into user (userID,name,tell,age,birthday,departmentID,stationID) values (3,'—é–Ø À','080-5566-7788',24,'2000-12-24',2,5);
+insert into user (userID,name,tell,age,birthday,departmentID,stationID) values (4,'²“¡ ´','012-0987-6543',19,'2005-08-01',1,5);
+insert into user (userID,name,tell,age,birthday,departmentID,stationID) values (5,'‚‹´ ´','090-9900-1234',24,'2000-12-24',3,5);
+
