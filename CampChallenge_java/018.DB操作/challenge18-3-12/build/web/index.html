@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="test180312" method="get">
+            <h1>検索条件を入力してください</h1><br>
+            名前：（苗字と名前の間は半角スペースを空ける）<br>
+            <input type="text" name="myname" value="南 太郎"><br>
+            年齢：（1～100まで）<br>
+            <input type="text" name="myage" value="52"><br>
+            誕生日：（例：2000-01-01）<br>
+            <input type="text" name="mybirth" value="1956-01-28"><br>
+            <br>
+            検索条件：<br>
+            <input type="radio" name="myradio" value="OR" checked>OR（または）<br>
+            <input type="radio" name="myradio" value="AND">AND（かつ）<br>
+            <br>
+            <input type ="submit" name="btnsubmit" value="検索">
+        </form>
+    </body>
+</html>
